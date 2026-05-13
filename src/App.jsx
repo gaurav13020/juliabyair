@@ -15,8 +15,8 @@ export default function App() {
         <Hero />
         <About />
         <Training />
-        <Aircraft />
         <Reviews />
+        <Aircraft />
         <Contact />
       </main>
       <Footer />

@@ -10,13 +10,14 @@ const INPUT_CLASS =
   'w-full px-4 py-3 rounded-xl border border-sky-200 bg-white text-sky-dark placeholder-sky-dark/40 text-base focus:outline-none focus:ring-2 focus:ring-sky-primary focus:border-transparent transition-all duration-200'
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: '', email: '', message: '' })
+  const [form, setForm] = useState({ name: '', phone: '', email: '', message: '' })
   const [status, setStatus] = useState('idle') // idle | loading | success | error
   const [errors, setErrors] = useState({})
 
   const validate = () => {
     const e = {}
     if (!form.name.trim()) e.name = 'Name is required'
+    if (!form.phone.trim()) e.phone = 'Phone number is required'
     if (!form.email.trim()) e.email = 'Email is required'
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = 'Enter a valid email'
     if (!form.message.trim()) e.message = 'Message is required'
@@ -45,7 +46,7 @@ export default function Contact() {
       })
       if (res.ok) {
         setStatus('success')
-        setForm({ name: '', email: '', message: '' })
+        setForm({ name: '', phone: '', email: '', message: '' })
       } else {
         setStatus('error')
       }
@@ -188,6 +189,30 @@ export default function Contact() {
                   {errors.name && (
                     <p id="name-error" className="mt-1 text-rose-500 text-sm">
                       {errors.name}
+                    </p>
+                  )}
+                </div>
+
+                {/* Phone */}
+                <div>
+                  <label htmlFor="phone" className="block text-base font-medium text-sky-dark mb-1.5">
+                    Phone
+                  </label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autoComplete="tel"
+                    value={form.phone}
+                    onChange={handleChange}
+                    placeholder="(555) 000-0000"
+                    className={INPUT_CLASS}
+                    aria-describedby={errors.phone ? 'phone-error' : undefined}
+                    aria-invalid={!!errors.phone}
+                  />
+                  {errors.phone && (
+                    <p id="phone-error" className="mt-1 text-rose-500 text-sm">
+                      {errors.phone}
                     </p>
                   )}
                 </div>

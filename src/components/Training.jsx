@@ -38,7 +38,7 @@ const SERVICES = [
     image: '/discovery.jpg',
     title: 'Discovery Flight',
     description:
-      'Take the controls for the first time! A 60-minute introductory flight over the Bay Area — the perfect gift or first step.',
+      'Take the controls for the first time! An introductory flight over the Bay Area — the perfect gift or first step.',
   },
 ]
 

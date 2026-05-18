@@ -5,37 +5,37 @@ import SectionWrapper from './SectionWrapper'
 
 const SERVICES = [
   {
-    image: '/selfie.jpg',
+    image: '/selfie.webp',
     title: 'Private Pilot License (PPL)',
     description:
       'Start your aviation journey. Learn fundamental maneuvers, navigation, and emergency procedures.',
   },
   {
-    image: '/cloudHole.png',
+    image: '/cloudHole.webp',
     title: 'Instrument Rating (IR)',
     description:
       'Fly safely in low-visibility conditions using only your instruments. Essential for serious pilots and required for commercial flying.',
   },
   {
-    image: '/airplanesOnRamp.jpg',
+    image: '/airplanesOnRamp.webp',
     title: 'Commercial Pilot Training',
     description:
       'Advance your skills to professional standards. Complex aircraft operations, cross-country precision, and aeronautical decision making.',
   },
   {
-    image: '/cockpit.jpg',
+    image: '/cockpit.webp',
     title: 'Flight Review (BFR) & IPC',
     description:
       'Stay current with an FAA-required Biennial Flight Review or restore instrument currency with an Instrument Proficiency Check. Relaxed, focused, and individualized.',
   },
   {
-    image: '/map.jpg',
+    image: '/map.webp',
     title: 'Checkride Prep',
     description:
       'Targeted preparation for oral and practical exams. Mock checkrides, ACS oral review, and confidence-building practice flights.',
   },
   {
-    image: '/discovery.jpg',
+    image: '/discovery.webp',
     title: 'Discovery Flight',
     description:
       'Take the controls for the first time! An introductory flight over the Bay Area — the perfect gift or first step.',

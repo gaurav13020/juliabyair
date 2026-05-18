@@ -83,7 +83,7 @@ export default function Contact() {
             {/* Map placeholder */}
             <div className="rounded-2xl overflow-hidden h-52 bg-sky-light relative shadow-sm border border-sky-100">
               <img
-                src="/cockpit.jpeg"
+                src="/cockpit.webp"
                 alt="Cockpit view"
                 className="w-full h-full object-cover opacity-60"
                 loading="lazy"

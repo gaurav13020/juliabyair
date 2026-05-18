@@ -33,7 +33,7 @@ export default function About() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] bg-sky-light">
               <img
-                src="/julia.jpg"
+                src="/julia.webp"
                 alt="Julia Sutter, Certified Flight Instructor, in the cockpit"
                 className="w-full h-full object-cover"
                 loading="lazy"

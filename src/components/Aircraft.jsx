@@ -8,7 +8,7 @@ const AIRCRAFT = [
     type: 'Single-Engine Piston',
     description:
       "The world's most popular training aircraft. Stable, forgiving, and perfectly suited for PPL and instrument rating training.",
-    image: '/cessna.jpg',
+    image: '/cessna.webp',
     tags: ['PPL', 'IFR', 'BFR'],
   },
   {
@@ -16,7 +16,7 @@ const AIRCRAFT = [
     type: 'Single-Engine Piston',
     description:
       'A versatile low-wing trainer with excellent cross-country capability. Great for building hours and mastering different handling characteristics.',
-    image: '/piper.jpg',
+    image: '/piper.webp',
     tags: ['PPL', 'Cross-Country'],
   },
   {
@@ -24,7 +24,7 @@ const AIRCRAFT = [
     type: 'Twin-Engine Piston',
     description:
       'A classic twin-engine aircraft perfect for multi-engine rating training. Builds confidence managing two powerplants and complex systems.',
-    image: '/cessna310.jpg',
+    image: '/cessna310.webp',
     tags: ['Multi-Engine', 'Complex'],
   },
   {
@@ -32,7 +32,7 @@ const AIRCRAFT = [
     type: 'Single-Engine Piston',
     description:
       'A lightweight two-seat trainer ideal for beginners. Low operating costs and simple systems make it a great first aircraft.',
-    image: '/cessna152.jpg',
+    image: '/cessna152.webp',
     tags: ['PPL', 'Solo', 'Beginner'],
   },
   {
@@ -40,7 +40,7 @@ const AIRCRAFT = [
     type: 'Single-Engine Piston',
     description:
       'A high-performance retractable-gear aircraft. Excellent for complex endorsements and building cross-country proficiency.',
-    image: '/debonair.jpg',
+    image: '/debonair.webp',
     tags: ['Complex', 'High-Performance', 'Retractable'],
   },
 ]

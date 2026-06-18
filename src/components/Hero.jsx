@@ -42,7 +42,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 backdrop-blur-sm border border-white/25 text-white text-base font-medium mb-6"
         >
           <span className="w-2 h-2 rounded-full bg-sky-secondary animate-pulse" aria-hidden="true" />
-          San Jose 67, CA · FAA Certified
+          San Jose, CA · FAA Certified
         </motion.div>
 
         {/* Headline */}
@@ -53,9 +53,9 @@ export default function Hero() {
           custom={0.25}
           className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-5"
         >
-          Certified Flight Instructor 
+          Certified Flight Instructor
           <br />
-          <span className="text-sky-secondary">in San Jose, CA</span>
+          <span className="text-sky-secondary">in San Jose</span>
         </motion.h1>
 
         {/* Subheading */}
